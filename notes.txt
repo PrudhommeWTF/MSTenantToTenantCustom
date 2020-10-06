@@ -1,0 +1,28 @@
+Example target MailUser object:
+Attribute	            Value
+Alias	                LaraN
+RecipientType	        MailUser
+RecipientTypeDetails	MailUser
+UserPrincipalName	    LaraN@northwintraders.onmicrosoft.com
+PrimarySmtpAddress	    Lara.Newton@northwind.com
+!-> ExternalEmailAddress	SMTP:LaraN@contoso.onmicrosoft.com
+!-> ExchangeGuid	        1ec059c7-8396-4d0b-af4e-d6bd4c12a8d8
+!-> ArchiveGuid             59575df2-e783-47b9-bc0a-9b4ac58f6da5
+LegacyExchangeDN	    /o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=74e5385fce4b46d19006876949855035Lara
+EmailAddresses	        !-> x500:/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d11ec1a2cacd4f81858c81907273f1f9Lara
+                        smtp:LaraN@northwindtraders.onmicrosoft.com
+                        SMTP:Lara.Newton@northwind.com
+
+
+Example source Mailbox object:
+Attribute	            Value
+Alias	                LaraN
+RecipientType	        UserMailbox
+RecipientTypeDetails	UserMailbox
+UserPrincipalName	    LaraN@contoso.onmicrosoft.com
+PrimarySmtpAddress	    Lara.Newton@contoso.com
+ExchangeGuid	        1ec059c7-8396-4d0b-af4e-d6bd4c12a8d8
+ArchiveGuid             59575df2-e783-47b9-bc0a-9b4ac58f6da5
+LegacyExchangeDN	    /o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d11ec1a2cacd4f81858c81907273f1f9Lara
+EmailAddresses	        smtp:LaraN@contoso.onmicrosoft.com
+                        SMTP:Lara.Newton@contoso.com
